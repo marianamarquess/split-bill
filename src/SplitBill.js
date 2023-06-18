@@ -37,7 +37,7 @@ export default function SplitBill({ setBalance, setShowSplitBill, name }) {
       <form className="form" onSubmit={handleSubmit}>
         <div className="form-items">
           <div className="form-item">
-            <label for="bill">💸 Bill value:</label>
+            <label htmlFor="bill">💸 Bill value:</label>
             <input
               value={bill}
               onChange={handleBillChange}
@@ -48,7 +48,7 @@ export default function SplitBill({ setBalance, setShowSplitBill, name }) {
             ></input>
           </div>
           <div className="form-item">
-            <label for="paying">🤔 Who is paying the bill?</label>
+            <label htmlFor="paying">🤔 Who is paying the bill?</label>
             <select
               value={paying}
               onChange={(e) => setPaying(e.target.value)}
@@ -61,7 +61,7 @@ export default function SplitBill({ setBalance, setShowSplitBill, name }) {
           </div>
         </div>
         <div className="form-item description">
-          <label for="description">✏️ Description:</label>
+          <label htmlFor="description">✏️ Description:</label>
           <input
             value={description}
             onChange={(e) => setDescription(e.target.value)}

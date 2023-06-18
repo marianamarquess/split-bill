@@ -12,6 +12,7 @@ function App() {
       name: "Mariana",
       avatar:
         "https://media.licdn.com/dms/image/D4D03AQFfLgRuGKUayQ/profile-displayphoto-shrink_800_800/0/1677520956034?e=1692230400&v=beta&t=J6Tt_d6NF1NrRVkGqASjJG6hp3UiK34jC1qSaCqDRKI",
+      id: 1,
     },
   ]);
   const [name, setName] = useState("");
@@ -58,6 +59,7 @@ function App() {
         {
           name: name[0].toUpperCase() + name.slice(1),
           avatar: avatar ? avatar : generatePastelColor(),
+          id: Date.now(),
         },
       ];
     });

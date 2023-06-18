@@ -9,7 +9,7 @@ export default function AddFriend({
   return (
     <form className="add-friend" onSubmit={handleBtnAdd}>
       <div>
-        <label for="name">🚀 Name of Friend:</label>
+        <label htmlFor="name">🚀 Name of Friend:</label>
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -20,7 +20,7 @@ export default function AddFriend({
         ></input>
       </div>
       <div>
-        <label for="avatar">📷 Choose Avatar:</label>
+        <label htmlFor="avatar">📷 Choose Avatar:</label>
         <input
           value={avatar}
           onChange={(e) => setAvatar(e.target.value)}

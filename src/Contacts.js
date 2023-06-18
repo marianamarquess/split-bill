@@ -9,7 +9,7 @@ export default function Contacts({ friends }) {
         <ContactItem
           name={friend.name}
           avatar={friend.avatar}
-          key={friend.name}
+          key={friend.id}
         />
       ))}
     </div>
