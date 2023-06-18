@@ -5,10 +5,10 @@
 }
 
 :root {
-  --light-background: #fff7ed;
-  --dark-background: #ffedd5;
+  --light-background: #f9fafb;
+  --dark-background: #f3f4f6;
   --text: #18181b;
-  --button: #fdba74;
+  --button: #047857;
 }
 
 html {
@@ -106,7 +106,7 @@ body {
   background-color: var(--button);
   font-size: 1.4rem;
   padding: 0.5rem;
-  width: 8rem;
+  width: 9rem;
   height: 3rem;
   transition: 0.3s;
 }

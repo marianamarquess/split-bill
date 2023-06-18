@@ -46,6 +46,7 @@ function App() {
 
   function handleBtnAddFriend() {
     setShowAddFriend(!showAddFriend);
+    setNameError(false);
   }
 
   function handleBtnAdd(e) {
