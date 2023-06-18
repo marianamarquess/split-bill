@@ -60,7 +60,7 @@ export default function SplitBill({ setBalance, setShowSplitBill, name }) {
             </select>
           </div>
         </div>
-        <div className="form-item">
+        <div className="form-item description">
           <label for="description">✏️ Description:</label>
           <input
             value={description}
